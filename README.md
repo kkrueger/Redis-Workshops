@@ -1,16 +1,6 @@
-# Redis-Workshops
-
+# Semantic Caching using Redis VL
 ![Redis](https://redis.com/wp-content/themes/wpx/assets/images/logo-redis.svg?auto=webp&quality=85,75&width=120)
 
-Collection of Google-Colab - based notebooks highlighting different aspects of Redis Enterprise and Redis Stack.
+This notebook uses RedisVL to turn Redis, with its vector search capability, into a semantic cache to store query results, thereby reducing the number of requests and tokens sent to the Large Language Models (LLM) service. This decreases expenses and enhances performance by reducing the time taken to generate responses.
 
-## Common Tools
-
-- https://redis.com/try-free/ Free Redis Cloud account
-- https://redis.com/redis-enterprise/redis-insight/ Redis Insight
-- https://redis.io/download/ Redis Stack
-
-## Documentation
-
-- https://redis.io/commands/ Redis Commands Reference
-- https://redis-py.readthedocs.io/en/stable/index.html Redis Python client docs
+This notebook requires an OpenAI API key. You can find your API key at https://platform.openai.com/account/api-keys.
