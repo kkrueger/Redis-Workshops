@@ -2,7 +2,7 @@
 
 ![Redis](https://redis.com/wp-content/themes/wpx/assets/images/logo-redis.svg?auto=webp&quality=85,75&width=120)
 
-This a notebook would use LLM (Large Language Model Redis) with Redis Vector Similarity Search and LangChain to answer questions about the information contained in a document.
+This notebook uses a LLM (Large Language Model) with Redis Vector Similarity Search and LangChain to answer questions about the information contained in a document.
 
 There are three versions of the notebook, using different LLMs.
 
